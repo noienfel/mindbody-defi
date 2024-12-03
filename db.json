@@ -1,0 +1,88 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "João",
+      "sexo": "Masculino",
+      "sintomas": [
+        "Cansaço",
+        "Dor de cabeça"
+      ],
+      "avaliacao": "Estresse Moderado",
+      "comentarios": [
+        "Precisa descansar"
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Maria",
+      "sexo": "Feminino",
+      "sintomas": [
+        "Ansiedade",
+        "Transpiração excessiva"
+      ],
+      "avaliacao": "Ansiedade",
+      "comentarios": [
+        "Precisa de acompanhamento médico"
+      ]
+    },
+    {
+      "id": "e0b4",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "burnout",
+        "cansaco",
+        "dor"
+      ],
+      "avaliacao": "Você apresenta sinais de burnout. É importante buscar ajuda.",
+      "comentarios": []
+    },
+    {
+      "id": "910e",
+      "nome": "rafael",
+      "sexo": "masculino",
+      "sintomas": [],
+      "avaliacao": "",
+      "comentarios": [
+        "precisa de repouso"
+      ]
+    },
+    {
+      "id": "53a3",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "burnout",
+        "cansaco",
+        "dor"
+      ],
+      "avaliacao": "Você apresenta sinais de burnout. É importante buscar ajuda.",
+      "comentarios": []
+    },
+    {
+      "id": "4c08",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "ansiedadeconcentra",
+        "cansaco",
+        "dor"
+      ],
+      "avaliacao": "Os sintomas informados não correspondem a um diagnóstico direto. Consulte um dos médicos que indicamos.",
+      "comentarios": []
+    },
+    {
+      "id": "d524",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "burnout",
+        "cansaco",
+        "dor"
+      ],
+      "avaliacao": "Você apresenta sinais de burnout. É importante buscar ajuda.",
+      "comentarios": []
+    }
+  ]
+}
