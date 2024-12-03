@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import Footer from "../components/Footer";
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 const API_URL = "http://localhost:3001/usuarios";
 
@@ -218,7 +218,16 @@ function Entrevista() {
                 onChange={handleChange}
                 className="mr-2"
               />
-              Estresse com tarefas do dia a dia
+              Me sinto pressionado com tarefas simples
+            </label>
+            <label className="flex items-center">
+              <input
+                type="checkbox"
+                name="estresseTarefas"
+                onChange={handleChange}
+                className="mr-2"
+              />
+            Me sinto estressado ao realizar qualquer atividade
             </label>
             <label className="flex items-center">
               <input
@@ -263,6 +272,10 @@ function Entrevista() {
 
   return (
     <>
+    <div className="mb-12">
+
+    <Navbar/>
+    </div>
     <div className="flex flex-col items-center h-screen bg-gray-100">
       <div className="w-8 bg-gray-200 rounded-full flex flex-col items-center py-4 fixed left-4">
         {etapas.map((_, index) => (
@@ -296,7 +309,8 @@ function Entrevista() {
         </div>
       </div>
     </div>
-     </>
+    <Footer />
+    </>
        
      );
    }

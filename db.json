@@ -83,6 +83,42 @@
       ],
       "avaliacao": "Você apresenta sinais de burnout. É importante buscar ajuda.",
       "comentarios": []
+    },
+    {
+      "id": "58a7",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "burnout",
+        "ansiedadeconcentra",
+        "batimentos",
+        "tensao",
+        "transpiração"
+      ],
+      "avaliacao": "Você apresenta sinais de burnout. É importante buscar ajuda.",
+      "comentarios": []
+    },
+    {
+      "id": "88f2",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [],
+      "avaliacao": "Você está bem!",
+      "comentarios": []
+    },
+    {
+      "id": "1fd5",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "ansiedadepressao",
+        "ansiedadeconcentra",
+        "cansaco",
+        "dor",
+        "transpiração"
+      ],
+      "avaliacao": "Você apresenta sinais de estresse moderado.",
+      "comentarios": []
     }
   ]
 }

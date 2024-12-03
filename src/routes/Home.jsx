@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "../assets/react.svg";
-import viteLogo from "/vite.svg";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "../index.css";
@@ -56,10 +53,10 @@ function Home() {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row ml-28 flex-wrap justify-center gap-6 lg:gap-8 mt-10 sm:mt-16 lg:mt-28">
-          <Card titulo="120.000+" paragrafo="Horas de trabalho por médicos e psicólogos." />
-          <Card titulo="20M+" paragrafo="Entrevistas realizadas" />
-          <Card titulo="200.000+" paragrafo="Horas de trabalho por médicos e psicólogos." />
+        <div className="flex flex-col sm:flex-row ml-14 flex-wrap justify-center gap-6 lg:gap-8 mt-10 sm:mt-16 lg:mt-28">
+          <Card titulo="120.000+" paragrafo="Horas de trabalho por médicos e psicólogos. " imagem="card1med.png" />
+          <Card titulo="20M+" paragrafo="Entrevistas realizadas"  imagem="card3entrevistas.png" />
+          <Card titulo="200.000+" paragrafo="Entrevistas todo mês." imagem="card2entrevistador.png" />
         </div>
       </section>
 
