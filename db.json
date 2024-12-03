@@ -119,6 +119,20 @@
       ],
       "avaliacao": "Você apresenta sinais de estresse moderado.",
       "comentarios": []
+    },
+    {
+      "id": "3331",
+      "nome": "Maior de 18 anos",
+      "sexo": "",
+      "sintomas": [
+        "ansiedadeconcentra",
+        "tensao",
+        "transpiração"
+      ],
+      "avaliacao": "Você apresenta sinais de ansiedade. Considere buscar suporte.",
+      "comentarios": [
+        "necessita um psicologo "
+      ]
     }
   ]
 }

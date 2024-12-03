@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const API_URL = "http://localhost:3001/usuarios";
 
@@ -80,6 +82,11 @@ function Admin() {
   };
 
   return (
+    <>
+    <div className='mb-20'>
+
+    <Navbar/>
+    </div>
     <div className="admin-container max-w-screen-lg mx-auto p-4">
       <h1 className="text-3xl text-center font-bold mb-8">Admin - Gerenciamento de Entrevistas</h1>
       
@@ -98,22 +105,26 @@ function Admin() {
           onChange={(e) => setNovoUsuario({ ...novoUsuario, nome: e.target.value })}
           placeholder="Nome"
           className="block w-full p-3 mb-4 border border-gray-300 rounded-lg"
-        />
+          />
         <input
           type="text"
           value={novoUsuario.sexo}
           onChange={(e) => setNovoUsuario({ ...novoUsuario, sexo: e.target.value })}
           placeholder="Sexo"
           className="block w-full p-3 mb-4 border border-gray-300 rounded-lg"
-        />
+          />
         <button 
           onClick={adicionarUsuario} 
           className="w-full sm:w-auto bg-green-500 text-white py-2 px-4 rounded-lg"
-        >
+          >
           Adicionar Usuário
         </button>
       </section>
     </div>
+    <div>
+      <Footer/>
+    </div>
+          </>
   );
 }
 
